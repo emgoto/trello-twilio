@@ -1,6 +1,8 @@
 # Trello + Twilio
 This Trello + Twilio integration will allow you to manage your SMS communications via a Trello board.
 
+[Learn more from my post on DEV](https://dev.to/emma/trello-twilio-simplify-conversations-with-your-customers-32dg).
+
 ## Local development
 ### Setting up your Twilio number to receive messages
 Make sure you have installed Twilio's CLI and have logged in:
