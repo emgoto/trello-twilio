@@ -1,0 +1,45 @@
+{
+  "name": "trello-twilio",
+  "version": "1.0.0",
+  "description": "Send and receive SMS notifications via Trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emgoto/trello-twilio"
+  },
+  "keywords": [
+    "twilio",
+    "express",
+    "mongodb",
+    "twiml",
+    "webhooks",
+    "voip"
+  ],
+  "author": "Emma Goto",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^2.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.12.0",
+    "express-session": "^1.10.3",
+    "morgan": "^1.5.1",
+    "node-fetch": "^2.6.0",
+    "sanitize-html": "^1.10.0",
+    "twilio": "^3.42.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "mockery": "^2.0.0",
+    "sinon": "^2.1.0",
+    "supertest": "^2.0.1"
+  }
+}
