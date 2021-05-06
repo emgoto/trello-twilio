@@ -31,7 +31,7 @@
     "express-session": "^1.10.3",
     "morgan": "^1.5.1",
     "node-fetch": "^2.6.0",
-    "sanitize-html": "^1.10.0",
+    "sanitize-html": "^2.3.2",
     "twilio": "^3.42.2",
     "underscore": "^1.8.3"
   },
